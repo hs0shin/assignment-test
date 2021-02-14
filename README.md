@@ -16,9 +16,9 @@ React, Vue와 같은 프레임워크를 다뤄 보신 분들은 더 쉽게 이�
 
 * [앱 초기화]()
 
-* [AJAX - XhttpRequest]()
+* [AJAX - XhttpRequest](https://github.com/dev-mish-mash/assignment-test/tree/main/code/ajax)
 
-* [DOM 객체의 컴포넌트화]()
+* [DOM 객체의 컴포넌트화](https://github.com/dev-mish-mash/assignment-test/tree/main/code/component)
 
 * [데이터 관리(스토어)](https://github.com/dev-mish-mash/assignment-test/tree/main/code/app-data)
 
