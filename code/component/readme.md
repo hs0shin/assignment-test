@@ -7,3 +7,5 @@
 결국 이 부분에서 할 수 있는 최선은 DOM 조작하는 복잡한 코드를 최대한 템플릿 엔진을 활용하여 가독성 있게 정리하는 것입니다. 여기서는 browser 자체의 템플릿 엔진인 outerHTML, innerHTML을 활용합니다.
 
 MVC 패턴을 알고 계신 분이라면, View를 구성하는 것이라고 생각하면 되겠습니다.
+
+> 주의! -  [innerHtml은 보안 문제가 발생할 수 있어](https://developer.mozilla.org/ko/docs/Web/API/Element/innerHtml#security_considerations) 실제 실무에서는 사용을 지양해야 합니다.  이 프로젝트에서는 편의성을 위해 사용하였습니다.
