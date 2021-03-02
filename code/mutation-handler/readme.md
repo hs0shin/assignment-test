@@ -4,5 +4,4 @@
 
 MVC 패턴에 비유하자면 Model이 View를 변경시키는 이벤트이며,
 
-Flux 패턴으로 비유하자면 Store 에서 View를 변경시키는 이벤트라고 보면 됩니다.
-
+Flux 패턴으로 비유하자면 Store의 각 속성들이 변했을 때 View를 변경시키는 이벤트라고 보면 되고, Observer pattern으로 구성되었다고 볼 수도 있습니다.
