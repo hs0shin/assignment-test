@@ -3,7 +3,7 @@
  * @param {string} url 서버의 url 입력
  * @description 사용할때는 getRequest(param).then().catch() 혹은 await getReqeust(param).catch() 로 사용할것 - 아래 참조
  */
-export const reqeust = method => (url, json = null) => new Promise((resolve, reject) => {
+export const ajax = method => (url, json = null) => new Promise((resolve, reject) => {
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -22,6 +22,6 @@ export const reqeust = method => (url, json = null) => new Promise((resolve, rej
 });
 
 // promise
-let requestUsingPromise = request('GET')(url).then(resp => console.log(resp)).catch();
+let requestUsingPromise = ajax('GET')(url).then(resp => console.log(resp)).catch();
 // await - 지원되는 브라우저에서만 쓰세요 
-let requestUsingAwait = await request('POST')(url, json).catch(err => console.log(err));
+let requestUsingAwait = await ajax('POST')(url, json).catch(err => console.log(err));

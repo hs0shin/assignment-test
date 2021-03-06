@@ -4,6 +4,10 @@
 const createStore = mutationHandler => new Proxy({
     // 필요한 data field 설정
 }, {
+    set: (store, prop, value, receiver) => {
+        // 필요한 동작 수행
+        // receiver는 프록시 object 자체를 의미함
+    }
     // 필요한 event handler 및 trap 설정
 })
 
