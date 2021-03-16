@@ -4,7 +4,7 @@
  * @description 사용할때는 getRequest(param).then().catch() 혹은 await getReqeust(param).catch() 로 사용할것 - 아래 참조
  */
 export const ajax = method => (url, json = null) => new Promise((resolve, reject) => {
-    let xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200 || xhr.status === 201) resolve(JSON.parse(xhr.responseText));
