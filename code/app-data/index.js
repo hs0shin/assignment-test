@@ -26,6 +26,7 @@ const createStore = (renderMerchandiseList, renderCustomerInfo) => new Proxy({
         store[prop] = value;
         prop === 'merchandiseList' && renderMerchandiseList(store);
         prop === 'customerInfo' && renderCustomerInfo(store);
+        return true;
     }
 })
 
