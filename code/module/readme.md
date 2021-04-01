@@ -20,7 +20,7 @@ ES6 부터는 브라우저 자체가 Module 을 지원합니다. (IE만 빼고�
     ...
 </html>
 ```
-먼저 index.html에서 모듈로 사용할 script를 브라우저가 인식할 수 있도록  ```type='module'``` 로 속성을 추가하여야 합니다. 
+index.html에서 모듈로 사용할 script를 브라우저가 인식할 수 있도록  ```type='module'``` 로 속성을 추가하여야 합니다. 
 
 
 ## Web Server 설정
