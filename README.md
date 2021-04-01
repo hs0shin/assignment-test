@@ -13,7 +13,7 @@ React, Vue와 같은 Flux 패턴의 프레임워크나, MVC 프레임워크를 �
 
 * [모듈 시스템](https://github.com/dev-mish-mash/assignment-test/tree/main/code/module) 
 
-* [앱 초기화](https://github.com/dev-mish-mash/assignment-test/tree/main/code/component/entrypoint)
+* [앱 초기화](https://github.com/dev-mish-mash/assignment-test/tree/main/code/entrypoint)
 
 * [AJAX - XhttpRequest](https://github.com/dev-mish-mash/assignment-test/tree/main/code/ajax)
 
